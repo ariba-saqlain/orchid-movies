@@ -1,0 +1,18 @@
+.bg {
+  background-image: url("../images/flowers.jpeg");
+  background-color: black;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home2 {
+  margin-top: 14vh;
+  font-size: calc(10px + 1vw);
+  color: white;
+}
+
+.home1 {
+  font-size: calc(22px + 2vw);
+  color: white;
+}
