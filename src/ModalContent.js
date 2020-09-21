@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Modal } from "react-bootstrap";
 
 class ModalContent extends Component {
   constructor(props) {
@@ -29,9 +30,24 @@ class ModalContent extends Component {
     } else {
       return (
         <div>
-          {items.map((item) => (
-            <p>{item.Title}</p>
-          ))}
+          <Modal.Header closeButton>
+            <Modal.Title>
+              {items.map((item) => (
+                <h4 class="mb-0">{item.Title}</h4>
+              ))}
+            </Modal.Title>
+          </Modal.Header>
+
+          <Modal.Body>
+            {items.map((item) => (
+              <div>
+                <p>
+                  {item.Rated} | {item.Runtime} | {item.Genre}
+                </p>
+                <p>{item.Plot}</p>
+              </div>
+            ))}
+          </Modal.Body>
         </div>
       );
     }

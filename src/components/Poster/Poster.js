@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Modal, Col, Image } from "react-bootstrap";
 import ModalContent from "../../ModalContent";
+import "./Poster.css";
 
 class Poster extends Component {
   constructor(props, context) {
@@ -16,7 +17,7 @@ class Poster extends Component {
 
     return (
       <Col xs={6} sm={4} md={3}>
-        <div class="mb-4" onClick={() => this.setState({ lgShow: true })}>
+        <div class="mb-4 box" onClick={() => this.setState({ lgShow: true })}>
           <Image src={this.props.src} fluid />
         </div>
 
