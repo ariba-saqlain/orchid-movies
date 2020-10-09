@@ -3,6 +3,8 @@ import { Modal, Col, Image } from "react-bootstrap";
 import ModalContent from "../../ModalContent";
 import "./Poster.css";
 
+// image size = 666 x 1000
+
 class Poster extends Component {
   constructor(props, context) {
     super(props, context);
