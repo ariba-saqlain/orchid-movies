@@ -1,7 +1,11 @@
 .navbar {
   background-color: rgba(166, 103, 114, 0.6);
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  transform: scale(1.1);
 }
 
 .center {

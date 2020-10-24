@@ -6,8 +6,8 @@ import "./Poster.css";
 // image size = 666 x 1000
 
 class Poster extends Component {
-  constructor(props, context) {
-    super(props, context);
+  constructor(props) {
+    super(props);
 
     this.state = {
       lgShow: false,
@@ -19,7 +19,10 @@ class Poster extends Component {
 
     return (
       <Col xs={6} sm={4} md={3}>
-        <div class="mb-4 box" onClick={() => this.setState({ lgShow: true })}>
+        <div
+          className="mb-4 box"
+          onClick={() => this.setState({ lgShow: true })}
+        >
           <Image src={this.props.src} fluid />
         </div>
 

@@ -8,7 +8,7 @@ class Header extends Component {
 
   render() {
     return (
-      <h1 style={this.styles} class="text-center mt-5 mb-4">
+      <h1 style={this.styles} className="text-center mt-5 mb-4">
         {this.props.title}
       </h1>
     );

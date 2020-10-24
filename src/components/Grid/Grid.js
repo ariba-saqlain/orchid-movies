@@ -91,13 +91,19 @@ class Grid extends Component {
   ];
 
   render() {
-    return (
-      <Row>
-        {this.tvList.map((item) => (
-          <Poster src={item.src} apiLink={item.apiLink} />
-        ))}
-      </Row>
-    );
+    const filterText = "";
+
+    const testList = this.tvList
+
+      .filter((item) => {
+        return item.title.toLowerCase().indexOf(filterText.toLowerCase()) >= 0;
+      })
+
+      .map((item) => {
+        return <Poster src={item.src} apiLink={item.apiLink} />;
+      });
+
+    return <Row>{testList}</Row>;
   }
 }
 
