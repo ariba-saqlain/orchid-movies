@@ -12,8 +12,6 @@ class MyNavbar extends Component {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/movies">Movies</Nav.Link>
             <Nav.Link href="/tvshows">TV Shows</Nav.Link>
-            <Nav.Link href="/tvshows">Documentaries</Nav.Link>
-            <Nav.Link href="/tvshows">Comedies</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
