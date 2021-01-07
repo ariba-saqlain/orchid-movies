@@ -45,7 +45,7 @@ export const movieList = [
     id: "6",
     title: "Inside Man",
     src:
-      "https://www.joblo.com/assets/images/oldsite/posters/images/full/2006-inside_man-2.jpg",
+      "https://m.media-amazon.com/images/M/MV5BYjc4MjA2ZDgtOGY3YS00NDYzLTlmNTEtYWMxMzcwZjgzYWNjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
     apiLink: "http://omdbapi.com/?i=tt0454848&apikey=1001f938",
   },
   {
@@ -94,7 +94,7 @@ export const movieList = [
     id: "13",
     title: "The Truman Show",
     src:
-      "https://i.pinimg.com/originals/6e/09/3c/6e093c479e931ccccd9d725f16c27421.jpg",
+      "https://i.etsystatic.com/23539062/r/il/359c4e/2465142831/il_570xN.2465142831_8uwl.jpg",
     apiLink: "http://omdbapi.com/?i=tt0120382&apikey=1001f938",
   },
 ];

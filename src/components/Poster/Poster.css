@@ -11,8 +11,30 @@
   opacity: 1;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  min-height: 233px;
 }
 
 .modal {
   margin-top: 16vh;
+}
+
+@media only screen and (min-width: 576px) {
+  .img-fluid {
+    height: 225px;
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .img-fluid {
+    height: 315px;
+    width: 210px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img-fluid {
+    height: 380px;
+    width: 255px;
+  }
 }
