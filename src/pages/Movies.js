@@ -13,10 +13,14 @@ function Movies() {
 
   return (
     <Fragment>
-      <MyNavbar />
+      <div class="bg-other">
+        <MyNavbar />
+        <Container>
+          <Header title={"Movies"} />
+          <Search searchValue={searchValue} setsearchValue={setsearchValue} />
+        </Container>
+      </div>
       <Container>
-        <Header title={"Movies"} />
-        <Search searchValue={searchValue} setsearchValue={setsearchValue} />
         <Grid list={movieList} searchValue={searchValue} />
       </Container>
     </Fragment>

@@ -1,6 +1,13 @@
-.bg {
-  background-image: url("../images/flowers.jpeg");
+.bg-home {
+  background-image: url("../images/flowers-light.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
+}
+
+/* dark banner for mobile view */
+.bg-other {
+  background-image: url("../images/flowers-dark.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -14,4 +21,11 @@
 .home1 {
   font-size: calc(22px + 2vw);
   color: white;
+}
+
+/* light banner for desktop view */
+@media only screen and (min-width: 768px) {
+  .bg-other {
+    background-image: url("../images/flowers-light.jpeg");
+  }
 }

@@ -15,7 +15,7 @@ export function Search({ searchValue, setsearchValue }) {
 
   return (
     <Fragment>
-      <InputGroup className="mb-4">
+      <InputGroup className="mb-4 pb-4">
         <InputGroup.Prepend>
           <InputGroup.Text id="inputGroup-sizing-default">
             Search

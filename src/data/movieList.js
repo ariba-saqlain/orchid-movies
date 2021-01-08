@@ -59,7 +59,7 @@ export const movieList = [
     id: "8",
     title: "Seven Pounds",
     src:
-      "https://lh3.googleusercontent.com/proxy/46CHljdLMtn-pVzS19r-bukwL0O9E7aPGAEqbquRazZ6VKhmQrTuwXoMUnFz4npj1fX43GYhWyooOE42aMGjw5Qc2M8D_jDjZl7P3cxsoJbmlg",
+      "https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/chameleon/title-movie/230909_SEVEN%20POUNDS_1400x2100_English.jpg?itok=bu1H5nv3",
     apiLink: "http://omdbapi.com/?i=tt0814314&apikey=1001f938",
   },
   {

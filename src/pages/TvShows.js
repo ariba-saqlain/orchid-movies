@@ -13,10 +13,14 @@ function TvShows() {
 
   return (
     <Fragment>
-      <MyNavbar />
+      <div class="bg-other">
+        <MyNavbar />
+        <Container>
+          <Header title={"TV Shows"} />
+          <Search searchValue={searchValue} setsearchValue={setsearchValue} />
+        </Container>
+      </div>
       <Container>
-        <Header title={"TV Shows"} />
-        <Search searchValue={searchValue} setsearchValue={setsearchValue} />
         <Grid list={tvList} searchValue={searchValue} />
       </Container>
     </Fragment>

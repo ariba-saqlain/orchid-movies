@@ -5,7 +5,7 @@ import "./Home.css";
 class Home extends Component {
   render() {
     return (
-      <div class="bg">
+      <div class="bg-home">
         <MyNavbar />
         <div class="row">
           <div class="col"></div>
